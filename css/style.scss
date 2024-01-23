@@ -14,7 +14,8 @@ img{
     max-width: 100%;
 }
 .cl-container{
-    width: 70rem;
+    width: 90%;
+    max-width: 70rem;
     margin: auto;
 }
 
@@ -141,7 +142,7 @@ img{
     .cl-uses-notice{
         background-color: #534337;
         text-align: center;
-        padding: 1rem 0;
+        padding: 1rem;
         border-radius: 0 0 1rem 1rem;
 
         h4{
