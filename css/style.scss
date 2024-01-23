@@ -30,12 +30,12 @@ img{
 }
 .cl-banner::before{
     content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: -1;
-}
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: -1;
+    }
 
 
 .cl-logo{
@@ -188,6 +188,37 @@ img{
                 border-radius: 1rem;
                 box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
 
+            }
+        }
+    }
+}
+
+
+// About CSS
+.cl-about{
+    background-color: #133f10;
+
+    .cl-about-inner{
+        color: #fff;
+        font-family: var(--ff-anek);
+        h1{
+            font-family: var(--ff-anek);
+            font-weight: 700;
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .cl-about-items{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .cl-about-single-item{
+                width: 48%;
+                background-color: #3f7900;
+                padding: 1rem;
+                margin-bottom: 1rem;
+                border-radius: 2rem 0 2rem 0;
+                box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
             }
         }
     }
