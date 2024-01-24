@@ -49,10 +49,14 @@ img{
     a{
         display: inline-block;
         text-decoration: none;
+        width: 12%;
+        background-color: #fff;
+        padding: 1.5rem;
+        border-radius: 50%;
     }
-    img{
-        width: 10%;
-    }
+    // img{
+    //     width: 10%;
+    // }
 }
 .cl-banner{
     h1{
